@@ -1,7 +1,7 @@
 apt-get update
 apt-get install -y \
 linux-image-extra-$(uname -r) \
-linux-image-extra-virtual
+linux-image-extra-virtual \
 apt-get install -y \
 apt-transport-https \
 ca-certificates \
